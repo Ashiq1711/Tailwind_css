@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailWind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        }
+        
+      }
+    },
+    fontFamily: {
+      inter: ['Inter', 'sans-serif'],
+   
+    }
+  }
+  
+</script>
+</head>
+<body class="h-screen font-[inter]">
+ 
+  <header class="bg-white	py-4">
+  <nav class="flex justify-between items-center w-[75%] mx-auto">
+    <div class="">
+      <img class="" src="images/logo.png" alt="">
+    </div>
+    <div class="">
+
+      <ul class="flex item-center gap-[4vw]">
+        <li>
+          <a class="hover:text-[#0056B3] active:text-[#0056B3]" href="#">Home</a>
+        </li>
+        <li>
+          <a class="hover:text-[#0056B3]" href="#">About </a>
+        </li>
+        <li>
+          <a class="hover:text-[#0056B3]" href="#">About Us</a>
+        </li>
+        <li>
+          <a class="hover:text-[#0056B3]" href="#">Contract</a>
+        </li>
+        <li>
+          <a class="hover:text-[#0056B3]" href="#">FAQ</a>
+        </li>
+      </ul>
+    </div>
+    <div class="">
+      <button class="px-[25px] py-[10px] text-white rounded-full border-2 border-[white]	bg-[#00A65C] 
+      hover:bg-sky-700	hover:border-2 hover:border-[#00A65C] hover:bg-white
+       hover:text-[#00A65C] hover:duration-700"><i class="fa-solid fa-arrow-right pr-[10px]"></i>Contract</button>
+      
+    </div>
+  </nav>
+  </header>
+  <section class="flex justify-between items-center w-[75%] mx-auto mt-[70px]">
+    <div class="">
+      <h1 class="text-[50px] w-[394px] font-bold text-[#003379]	font-inter">Vistha Software
+        Development 
+        Company.</h1>
+    </div>
+    <div class="">
+      <img src="images/banner.png" alt="">
+    </div>
+  </section>
+
+</body>
+</html>
